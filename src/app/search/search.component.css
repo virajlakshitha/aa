@@ -1,0 +1,52 @@
+.pagination .page_no .active{
+    background-color: turquoise;
+}
+
+@media(min-width: 1280px){
+    #left_bar{
+        background-color: steelblue;
+        line-height: 2.5;
+    }
+    .search_head{
+        margin-top: 20px;
+        background-color: black;
+        color: white;
+        padding: 10px 10px 10px 20px;
+        font-size: 18px;
+    }
+    .products{
+        margin-top: 20px;
+        padding: 10px;
+        background-color: cadetblue;
+    }
+    .page_no{
+        padding: 5px 12px;
+        background-color: darkolivegreen;
+        color: white;
+        margin: 10px 0 0 10px;
+    }
+    .pagination{
+        display: inline-block;
+    }
+    #top_bar{
+        background-color: seagreen;
+        margin-top: 15px;
+        border-radius: 7px;
+        padding: 10px 5px;
+    }
+    #sort{
+        margin-top: 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 15px;
+    }
+}
+@media(min-width: 992px){
+
+}
+@media(min-width: 768px){
+
+}
+@media(min-width: 576px){
+
+}

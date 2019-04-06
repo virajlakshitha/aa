@@ -1,0 +1,42 @@
+
+@media(min-width: 1280px){
+    #profile_product{
+        margin-top: 100px;
+        margin-bottom: 35px;
+    }
+    h3.tittle {
+        position: relative;
+        color: #505050;
+        font-size: 40px;
+        letter-spacing: 1px;
+        z-index: 1;
+    }
+    h3.tittle span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        color: #F5F5F5;
+        z-index: -1;
+        font-size: 100px;
+        line-height: .5;
+        text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3)
+    }
+    .th{
+        border-right: 5px solid white;
+        height: 40px;
+    }
+    .line{
+        border-bottom: 1px solid black;
+        line-height: 2;
+    }
+}
+@media(min-width: 992px){
+
+}
+@media(min-width: 768px){
+
+}
+@media(min-width: 576px){
+
+}

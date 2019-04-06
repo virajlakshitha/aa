@@ -1,0 +1,40 @@
+#home_content{
+    margin-top: 20px;
+    background: url('/assets/img/1.jpg') no-repeat right;
+    background-size: cover;
+    min-height: 657px;
+}
+a{
+    text-decoration: none;
+}
+
+@media only screen and (min-width:1200px){
+    .bg-model{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.7);
+        position: absolute;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: none;
+    }
+    .model-content{
+        width: 550px;
+        height: 400px;
+        background-color: white;
+        border-radius: 4px;
+        text-align: center;
+        padding: 0 50px;
+        position: relative;
+    }
+    .close{
+        position: absolute;
+        top: 0;
+        right: 10px;
+        font-size: 40px;
+        transform: rotate(45deg);
+        cursor: pointer;
+    }
+}

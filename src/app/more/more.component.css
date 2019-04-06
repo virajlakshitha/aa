@@ -1,0 +1,47 @@
+.more_tab:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.last_tab:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+@media(min-width: 1280px){
+    .more_head{
+        margin: 20px 0 0 0;
+        padding: 10px;
+        background-color: black;
+        color: white;
+        font-size: 18px;
+    }
+    .item_content{
+        padding: 15px;
+        background-color: cornflowerblue;
+        margin: 20px 0 0 0;
+    }
+    .more_tab{
+        padding: 10px 15px 10px 15px;;
+        background-color: teal;
+        color: white;
+        border-right: 1px solid white;
+    }
+    .last_tab{
+        padding: 10px 15px 10px 15px;;
+        background-color: teal;
+        color: white;
+    }
+    .tab_content{
+        padding: 30px;
+        background-color: #7ec5c5;
+    }
+}
+@media(min-width: 992px){
+
+}
+@media(min-width: 768px){
+
+}
+@media(min-width: 576px){
+
+}
